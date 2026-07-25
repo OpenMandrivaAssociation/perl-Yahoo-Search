@@ -2,14 +2,14 @@
 %define upstream_version 1.11.3
 
 Name:       perl-%{upstream_name}
-Version:    %perl_convert_version %{upstream_version}
-Release:    %mkrel 2
+Version:    %{upstream_version}
+Release:    3
 
 Summary:    Interface to Yahoo!s Search API
 License:    GPL+ or Artistic
 Group:      Development/Perl
-Url:        https://search.cpan.org/dist/%{upstream_name}
-Source0:    http://www.cpan.org/modules/by-module/Yahoo/%{upstream_name}-%{upstream_version}.tar.gz
+Url:        https://github.com/timbunce/Yahoo-Search
+Source0:    https://cpan.metacpan.org/authors/id/T/TI/TIMB/Yahoo-Search-%{upstream_version}.tar.gz
 
 BuildRequires:	make
 BuildRequires: perl(Encode)
